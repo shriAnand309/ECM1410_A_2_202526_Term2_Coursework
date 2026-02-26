@@ -29,6 +29,8 @@ public class CityMap {
     return x >= 0 && x < width && y >= 0 && y < height;
 }
 
+
+
 public boolean isBlocked(int x, int y) {
     return blocked[x][y];
 }
